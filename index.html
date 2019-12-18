@@ -263,7 +263,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="xuchuanjia.cn/2019/02/04/重新搞下Hexo-0-0/">
+    <link itemprop="mainEntityOfPage" href="xuchuanjia.cn/blog/2019/12/15/记录下在HEXO写博文的方式/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="WeiYang">
@@ -282,7 +282,178 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/02/04/重新搞下Hexo-0-0/" itemprop="url">重新搞下Hexo 0.0</a></h1>
+                <a class="post-title-link" href="/blog/2019/12/15/记录下在HEXO写博文的方式/" itemprop="url">记录下在HEXO写博文的方式</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-12-15T16:09:36+08:00">
+                2019-12-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  254 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>（鉴于太久没使用过HEXO来写博客了，后续可能也会忘掉，我就写一篇备忘博客来记录下吧！）</p>
+<p>HEXO基础设置<br>-<br>Hexo 默认以标题作为文件名称，可以通过 Hexo 的配置文件 _config.yml 中的 new_post_name 参数来改变默认的文件名称，</p>
+<blockquote>
+<p>new_post_name: :year-:month-:day-:title.md</p>
+<p>例如：2019-12-15-title.md</p>
+</blockquote>
+<p>同样在 Hexo 的配置文件 _config.yml 中, 配置 permalink 属性 ，来更改浏览器中访问的样式，</p>
+<blockquote>
+<p>permalink: /blog/:year/:month/:day/:title/</p>
+<p>例如：<a href="http://localhost:4000/blog/2019/12/15/hexo-blog/" target="_blank" rel="noopener">http://localhost:4000/blog/2019/12/15/hexo-blog/</a></p>
+</blockquote>
+<p>创建一篇博客<br>-<br>（先要定位到hexo根目录）在命令行中输入</p>
+<blockquote>
+<p>$ hexo new [layout] [title]</p>
+</blockquote>
+<p>命令创建一篇新的文章，[layout]可以选择post(默认，即直接发布）、page（在source下新建一个文件夹）、draft（新建文件保存到_drafts文件夹中），也可以通过publish命令将_draft草稿移动到_posts发布文件夹下。</p>
+<p>上传博客<br>-</p>
+<blockquote>
+<p>hexo s -g #生成并本地预览</p>
+<p>hexo d -g #生成并上传</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="xuchuanjia.cn/blog/2019/02/04/重新搞下Hexo-0-0/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="WeiYang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="长乐安生">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/blog/2019/02/04/重新搞下Hexo-0-0/" itemprop="url">重新搞下Hexo 0.0</a></h1>
         
 
         <div class="post-meta">
@@ -372,7 +543,7 @@
 <p>###<br>npm install –save hexo-helper-live2d<br>npm install {packagename}</p>
 <p>###</p>
 <pre><code>packagename即要使用的live2d的package包名，譬如live2d-widget-model-miku
-</code></pre><p>演示里面给出的效果好像是这样的，<br><img src="/2019/02/04/重新搞下Hexo-0-0/mmz.gif" title="[萌妹子]"><br>,不过在评论里有看见别人的博客有自定义的live2d模型，后续可以了解下惹。</p>
+</code></pre><p>演示里面给出的效果好像是这样的，<br><img src="/blog/2019/02/04/重新搞下Hexo-0-0/mmz.gif" title="[萌妹子]"><br>,不过在评论里有看见别人的博客有自定义的live2d模型，后续可以了解下惹。</p>
 <p>顺便也是有看了下md的语法和一些博客相关的设置，还是很有意思的，比如字数统计、阅读时间什么的，感觉需要学的东西还是很多的啦。不过也挺有意思的，算是学到了很多东西吧（雾，看书不好吗！  </p>
 <p>补充下= =  后面又加了插入图片的插件，调了下会动的初音的位置，给deploy加了个ssh登录，然后改了下界面显示，突然发现我为什么不去做前端（前端真好玩？？？）</p>
 
@@ -458,7 +629,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -471,7 +642,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
